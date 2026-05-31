@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* First NavBar */
+.first-nav{
+  background-color:RGB(254, 146, 170); 
+  font-size: 12px;
+  padding: 12px;
+  display: flex;
+  justify-content: end;
+}
+.first-nav a{
+    color: black;    
+}
+.first-nav .track{
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 350px;
+    margin-right: 50px;
+    color: rgb(45, 45, 45);
+}
+/* Second NavBar */
+.second-nav{
+  width:100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+.second-nav .logo img{
+    width: 70px;
+    height: 60x;
+}
+.second-nav .links .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.second-nav .links .list a{
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.second-nav .links .list a:hover{
+    padding-bottom: 4px;
+    border-bottom: 2px solid black;
+}
+.second-nav .links .list .list-item{
+    list-style: none;
+    margin-left: 5px;
+}
+.second-nav .links .list .sale{
+    color: red;
+}
+.second-nav .icons i{
+    font-size: 15px;
+    margin-left: 4px; 
+}
+
+/* Hero Section */
+.hero-section img{
+    width: 100vw;
+    height: 75vh;
+}
+.hero-section ul{
+    padding: 5px;
+}
+
+/* first-section */
+.first-section{
+    width: 100vw;
+    height: 60vw;
+    margin-top: 70px;
+}
+.first-section .text-content{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.first-section .text-content h2{
+    font-size: 38.26px;
+    margin-bottom: 20px;
+}
+.first-section .text-content span{
+    font-size: 18px;
+}
+.first-section img{
+   width: 100vw;
+}
+
+/* Products */
+.products{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.products .product img{
+    width: 20vw;
+}
+.products .product .cloth-type{
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.products .product h2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.products .product .price{
+    font-size: 14px;
+    margin-top: 10px;
+  
+  margin-bottom: 5px;
+}
+.products .product .btn button{
+    width: 40px;
+    height: 25px;
+    padding: 5px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+/*Best Sellers */
+.bestsellers{
+    margin-top: 300px;
+    margin-bottom:40px;
+}
+.bestsellers .text-content{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.bestsellers .text-content h2{
+    font-size: 38.26px;
+    margin-bottom: 20px;
+}
+.bestsellers .text-content span{
+    font-size: 18px;
+}
+.bestsellers img{
+    width: 100vw;
+}
+
+/* Details */
+.details{
+    width: 100vw;
+    height: 8vw;
+    margin-top: 250px;
+    background-color: RGBA(255, 180, 131, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(255, 217, 146);
+}
+.details h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.details h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.details h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.details h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.details .shipping{
+    display: flex;
+    margin-left: 50px;
+}
+.details .track-order{
+    display:flex;
+}
+.details .stores{
+    display: flex;
+}
+.details i {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px dashed rgb(255, 207, 119);
+    color: orange;
+}
+.details .content{
+    margin-left: 15px;
+}
+/* Help */
+.help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid lightgray;
+}
+.help .heading strong{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 85px;
+}
+.help .faqs{
+    margin-right: 450px;
+}
+
+/* First Footer */
+.footer-1{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    border-bottom: 1px solid lightgray;
+}
+.footer-1 h2{
+    font-size: 14px;
+    font-weight: 700;
+    color:rgb(45, 45, 45);
+    margin-bottom: 30px;
+}
+.footer-1 ul a{
+   text-decoration: none;
+   color:rgb(45, 45, 45);
+   font-size: 14px;
+   line-height: 1.9;
+}
+.footer-1 ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-1  ul li{
+    list-style: none;
+}
+.footer-1 .section-3 .social-icons i{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+.footer-1 .section-3 .social-icons .fa-tiktok{
+    padding: 3px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+.footer-1 .section-3 .social-icons .fa-instagram{
+    color: rgb(205, 81, 102);
+}
+.footer-1 .section-3 .social-icons .fa-youtube{
+    color: red;
+}
+.footer-1 .section-3 .social-icons .fa-facebook{
+    color: rgb(50, 50, 255);
+}
+.footer-1 b{
+    font-size: 11px;
+    
+}
+.footer-1 .input{
+   margin-top: 20px;
+   border-bottom: 1px solid gray;
+   padding-bottom: 6px;
+}
+.footer-1 input{
+    padding: 3px;
+    border: none;
+}
+.footer-1 button{
+    width: 80px;
+   height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+/* Second Footer */
+.footer-2{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.footer-2 .section-1 img{
+    width: 100px;
+    height: 90px;
+}
+.footer-2 .section-3{
+    display: flex;
+    align-items: center;
+}
+
+.footer-2 .section-3 img{
+    width: 50px;
+    height: 40px;
+    margin-right: 25px;
+}
+.footer-2 .section-2 p{
+    margin-bottom: 20px;
+}
+.footer-2 p{
+    font-size: 13px;
+    color: rgb(98, 98, 98);
+}
