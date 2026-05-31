@@ -5,7 +5,7 @@ Focused on real-world layout practice and clean design thinking.
 
 
 # Live Demo
-
+https://bakhtawar-nizamani.github.io/khaadi-ui-clone/
 
 # About This Project
 
