@@ -1,1 +1,286 @@
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Second Navbar */
+    .second-nav {
+        height: 6vh;
+    }
+
+    /* Hero Section */
+    .hero-section img {
+        height: 35vh;
+    }
+
+    /* Best Sellers */
+    .bestsellers {
+        margin-top: 0px;
+    }
+
+    /* Details */
+    .details {
+        margin-top: 0;
+        padding: 40px 18px;
+    }
+
+    .details h2 {
+        font-size: 13px;
+    }
+
+    .details h3 {
+        font-size: 11px;
+        font-weight: 300;
+    }
+
+    .details i {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* Help */
+    .help .faqs {
+        margin-right: 250px;
+    }
+
+    .help .heading strong {
+
+        font-size: 16px;
+
+    }
+
+    /* First Footer */
+    .footer-1 {
+        flex-direction: column-reverse;
+        padding: 30px 20px;
+        height: 53vh;
+
+    }
+    .footer-1 h2 {
+        margin-bottom: 20px;
+    }
+
+    .footer-1 .input {
+        margin-top: 20px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 3px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-1 .section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-1 .section .section-2 {
+        margin-right: 250px;
+    }
+
+    /* Second Footer */
+    .footer-2 {
+        height: 26vh;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .footer-2 .section-3 {
+        margin: 25px 0px;
+    }
+
+    .footer-2 .section-3 img {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+}
+
+
+   
+/* Mobile Responsive */
+@media screen and (max-width: 767px) {
+
+    /* First Navbar */
+    .first-nav {
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+
+    /* Second Navbar */
+    .second-nav {
+        height: auto;
+        min-height: 70px;
+        padding: 10px 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .second-nav .logo img {
+        width: 55px;
+        height: auto;
+    }
+
+    .second-nav .links .list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .second-nav .links .list a {
+        font-size: 11px;
+        margin-left: 5px;
+        padding: 3px;
+    }
+
+    .second-nav .icons i {
+        font-size: 13px;
+    }
+
+    /* Hero Section */
+    .hero-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* First Section */
+    .first-section {
+        width: 100%;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .first-section .text-content h2,
+    .bestsellers .text-content h2 {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+
+    .first-section .text-content span,
+    .bestsellers .text-content span {
+        font-size: 13px;
+    }
+
+    .first-section img,
+    .bestsellers img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Products */
+    .products {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px 10px;
+        padding: 10px;
+    }
+
+    .products .product {
+        width: 45%;
+    }
+
+    .products .product img {
+        width: 100%;
+        height: auto;
+    }
+
+    .products .product h2 {
+        font-size: 12px;
+    }
+
+    /* Best Sellers */
+    .bestsellers {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .bestsellers .text-content {
+        margin-bottom: 20px;
+    }
+
+    /* Details */
+    .details {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        padding: 20px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .details .shipping {
+        margin-left: 0;
+    }
+
+    .details h2 {
+        font-size: 14px;
+    }
+
+    .details h3 {
+        font-size: 12px;
+    }
+
+    /* Help */
+    .help {
+        padding: 20px 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .help .heading strong {
+        margin-left: 0;
+        font-size: 17px;
+    }
+
+    .help .faqs {
+        margin-right: 0;
+    }
+
+    /* First Footer */
+    .footer-1 {
+        width: 100%;
+        height: auto;
+        padding: 25px 15px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-1 .section {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .footer-1 .section .section-1 {
+        margin-right: 0;
+    }
+
+    .footer-1 h2 {
+        margin-bottom: 15px;
+    }
+
+    /* Second Footer */
+    .footer-2 {
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .footer-2 .section-3 {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-2 .section-3 img {
+        margin: 5px;
+    }
+}
+
